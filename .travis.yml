@@ -1,5 +1,5 @@
 os: linux
-dist: rhel8
+#dist: rhel8
 language: go
 # go:
 #   - 1.17.x
