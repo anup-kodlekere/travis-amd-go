@@ -1,8 +1,8 @@
 os: linux
-language: go
 dist: rhel8
-go:
-  - 1.17.x
+language: go
+# go:
+#   - 1.17.x
 script:
   - sudo cat /etc/os-release
   - echo "Testing Go Compiler"
