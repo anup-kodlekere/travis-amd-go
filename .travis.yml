@@ -1,0 +1,9 @@
+os: linux
+language: go
+go:
+  - 1.17.x
+script:
+  - sudo cat /etc/os-release
+  - echo "Testing Go Compiler"
+  - go version
+  - go run test.go
