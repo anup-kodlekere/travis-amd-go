@@ -1,5 +1,6 @@
 os: linux
 language: go
+dist: rhel8
 go:
   - 1.17.x
 script:
